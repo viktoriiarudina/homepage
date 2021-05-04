@@ -12,7 +12,7 @@
 <body>
   <main>
     <article>
-      <div class="page" style="border-color: midnightblue;">
+      <div class="page" style="border-color: green;">
         <div class="stackable grid">
           <div class="row">
             <div class="three wide center aligned column">
@@ -118,11 +118,17 @@
                 </li>
                 <li>
                   <p><small>2005</small></p>
-                  <p>Started Trump University with Michael Sexton and Jonathan Spitalny: no grades, certificates and
-                    other bureaucracy, but program offered courses in real estate, asset management entrepreneurship,
-                    and wealth creation. 98% students gave positive reviews while studying, however some of these
-                    ungrateful gringos filed lawsuits against Trump University after the course. I had to pay $25
-                    million to settle that...</p>
+                  <div class="details">
+                    <label for="other" class="summary">Started Trump University with Michael Sexton and Jonathan Spitalny:</label>
+                    <input type="checkbox" id="other">
+                    <div>
+                      <p> no grades, certificates and
+                        other bureaucracy, but program offered courses in real estate, asset management entrepreneurship,
+                        and wealth creation. 98% students gave positive reviews while studying, however some of these
+                        ungrateful gringos filed lawsuits against Trump University after the course. I had to pay $25
+                        million to settle that</p>
+                    </div>
+                  </div>
                 </li>
                 <li>
                   <p><small>2002</small></p>
@@ -140,9 +146,15 @@
                 </li>
                 <li>
                   <p><small>1997</small></p>
-                  <p>Began a multi-building development along the Hudson River, which was named Trump Place. Me and the
-                    other investors sold our shares for $1.8 billion and that was then the biggest residential sale in
-                    the history of New York City</p>
+                  <div class="details">
+                    <label for="1997" class="summary">Began a multi-building development along the Hudson River,</label>
+                    <input type="checkbox" id="1997">
+                    <div>
+                      <p>  which was named Trump Place. Me and the
+                        other investors sold our shares for $1.8 billion and that was then the biggest residential sale in
+                        the history of New York City</p>
+                    </div>
+                  </div>
                 </li>
                 <li>
                   <p><small>1996</small></p>
@@ -178,10 +190,16 @@
                 </li>
                 <li>
                   <p><small>1985</small></p>
-                  <p>I bought the Mar-a-Lago estate in Palm Beach and turned it into a private club.You can join if you
-                    pay $200K initiation fee (and there is another annual fee for members, it is very expensive to be
-                    rich). That year I also opened a casino called Trump Castle. My wife Ivana became a manager, because
-                    she is another Trump!</p>
+                  <div class="details">
+                    <label for="1985" class="summary">I bought the Mar-a-Lago estate in Palm Beach and turned it into</label>
+                    <input type="checkbox" id="1985">
+                    <div>
+                      <p> a private club.You can join if you
+                        pay $200K initiation fee (and there is another annual fee for members, it is very expensive to be
+                        rich). That year I also opened a casino called Trump Castle. My wife Ivana became a manager, because
+                        she is another Trump!</p>
+                    </div>
+                  </div>
                 </li>
                 <li>
                   <p><small>1983</small></p>
@@ -191,12 +209,19 @@
                 </li>
                 <li>
                   <p><small>1980</small></p>
-                  <p>Started developing the Trump Tower skyscraper in Manhattan, I payed a crew of undocumented Polish
-                    workers to demolish the historic Bonwit Teller store, including art deco features. All this to make
-                    architectural critic Paul Goldberger say in 1983 that the tower's atrium is "the most pleasant
-                    interior public space to be completed in New York in some years". At the same time I also started a
-                    repair job on the Wollman Rink in Central Park and completed the work in three months for $1.95
-                    million, which was $775,000 less than the initial budget!</p>
+                  <div class="details">
+                    <label for="1980" class="summary">Started developing the Trump Tower skyscraper in Manhattan, I payed a crew</label>
+                    <input type="checkbox" id="1980">
+                    <div>
+                      <p> of undocumented Polish
+                        workers to demolish the historic Bonwit Teller store, including art deco features. All this to make
+                        architectural critic Paul Goldberger say in 1983 that the tower's atrium is "the most pleasant
+                        interior public space to be completed in New York in some years". At the same time I also started a
+                        repair job on the Wollman Rink in Central Park and completed the work in three months for $1.95
+                        million, which was $775,000 less than the initial budget!</p>
+                    </div>
+                  </div>
+                  
                 </li>
                 <li>
                   <p><small>1978</small></p>
@@ -499,7 +524,7 @@
               <!-- Languages -->
               <section>
                 <h3>Languages</h3>
-                <ul>
+                <ul class="timeline">
                   <li>
                     <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span>
                   </li>
